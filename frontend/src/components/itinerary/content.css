@@ -1,0 +1,19 @@
+.itinerary-container{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+    text-align: start;
+}
+
+.itinerary-container h1{
+    padding-bottom: 1rem;
+}
+
+.itinerary-container p{
+    padding-bottom: 2rem;
+
+}
+@media screen and (max-width:850px){
+    .itinerary-container{
+        margin: 4rem 2rem;
+    }
+}

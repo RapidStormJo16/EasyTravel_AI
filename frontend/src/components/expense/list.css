@@ -1,0 +1,29 @@
+.expense-list{
+    margin: 3rem 6rem;
+    padding: 20px;
+    border-radius:4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+.expense-list ul{
+    list-style-type: none;
+    padding:0;
+}
+
+.expense-list h2{
+    text-align: center;
+}
+
+.expense-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.expense-list button{
+    background-color:#ddd ;
+    color: black;
+}
+
+.expense-list button:hover{
+    background-color: #454751e2;
+    color: white;
+}

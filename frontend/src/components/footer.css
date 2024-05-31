@@ -1,0 +1,16 @@
+.footer{
+    padding: 2rem 3rem;
+    background: black;
+    color: white;
+}
+
+.top h1{
+    letter-spacing: 12px;
+    font-weight: 800;
+}
+
+@media screen and (max-width:650px){
+    .top h1{
+        letter-spacing: 5px;
+    }
+}

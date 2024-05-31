@@ -1,0 +1,23 @@
+.form-group{
+    padding:5px;
+    margin: 20px;
+}
+
+.update{
+    align-items: center;
+    width:33% !important;
+    background-color: #dadbde !important;
+    border: 2px solid rgba(0,0,0,100) !important;
+    border-radius: 4px;
+    color: #000 !important;
+}
+
+.form-vessek{
+    border: 3px solid black !important;
+
+}
+
+.btn:hover{
+    background-color: #000 !important;
+    color: #fff !important;
+}

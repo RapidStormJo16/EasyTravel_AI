@@ -1,0 +1,72 @@
+.expense-container{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+    text-align: start;
+}
+
+.expense-container h1{
+    padding-bottom: 1rem;
+}
+
+.expense-container p{
+    padding-bottom: 2rem;
+
+}
+.total h2{
+text-align: center;
+}
+
+.total h3{
+text-align:end;
+}
+
+.expense-form{
+    margin:3rem 6rem;
+}
+.expense-form form{
+    text-align: start !important;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 3px solid #2a2a2a;
+}
+
+.expense-form label{
+    font-weight: 400 !important;
+}
+
+.expense-form input{
+margin-bottom: 0.5rem !important;
+}
+
+.expense-form button{
+    margin:0 25%;
+    text-decoration: none;
+    background: #dadbdef2;
+    width:50%;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #222;
+}
+
+.expense-form button:hover{
+    background-color: black !important;
+    color: white;
+}
+
+@media screen and (max-width:850px){
+    .expense-container{
+        margin: 4rem 2rem;
+    }
+
+    .total h3{
+        font-size: 25px;
+    }
+
+    .expense-form button{
+        margin: 0 25%;
+    }
+
+}
